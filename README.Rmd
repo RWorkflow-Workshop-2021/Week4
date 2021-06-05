@@ -7,7 +7,7 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
+## A table of data
 
 ```{r}
 a <- read.csv("test.csv")
