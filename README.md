@@ -3,6 +3,9 @@ A table of data
 
     a <- read.csv("test.csv")
 
+    ## Warning in read.table(file = file, header = header, sep = sep, quote = quote, :
+    ## incomplete final line found by readTableHeader on 'test.csv'
+
     knitr::kable(a)
 
 <table>
@@ -24,6 +27,10 @@ A table of data
 <tr class="odd">
 <td style="text-align: left;">Adele</td>
 <td style="text-align: right;">22</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Patrick</td>
+<td style="text-align: right;">17</td>
 </tr>
 </tbody>
 </table>
