@@ -3,9 +3,6 @@ A table of data
 
     a <- read.csv("test.csv")
 
-    ## Warning in read.table(file = file, header = header, sep = sep, quote = quote, :
-    ## incomplete final line found by readTableHeader on 'test.csv'
-
     knitr::kable(a)
 
 <table>
